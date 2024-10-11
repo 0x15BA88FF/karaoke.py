@@ -2,11 +2,14 @@
 
 ## Overview
 
-**Karaoke** is a lightweight Python library designed to facilitate interactions with song LRC (Lyric) files. It allows for easy parsing, management, and retrieval of song lyrics along with their corresponding timestamps.
+**Karaoke** is a lightweight Python library designed to facilitate interactions
+with song LRC (Lyric) files. It allows for easy parsing, management, and
+retrieval of song lyrics along with their corresponding timestamps.
 
 ## Installation
 
-To use the Karaoke library, simply clone the repository or download the `karaoke.py` file and include it in your project.
+To use the Karaoke library, simply clone the repository or download the
+`karaoke.py` file and include it in your project.
 
 ```bash
 git clone https://github.com/pascall-de-creator/karaoke.py
@@ -14,9 +17,12 @@ git clone https://github.com/pascall-de-creator/karaoke.py
 
 ## Features
 
-- **Parsing LRC Files:** Load and parse LRC formatted lyrics, extracting timestamps and lyrics.
-- **Timestamp Management:** Convert timestamps from LRC format to milliseconds for precise timing.
-- **Current Lyric Tracking:** Keep track of the current lyric based on a given timestamp.
+- **Parsing LRC Files:** Load and parse LRC formatted lyrics, extracting
+  timestamps and lyrics.
+- **Timestamp Management:** Convert timestamps from LRC format to milliseconds
+  for precise timing.
+- **Current Lyric Tracking:** Keep track of the current lyric based on a given
+  timestamp.
 
 ## Usage
 
@@ -57,7 +63,8 @@ print(all_lyrics)  # Output: ['Line 1', 'Line 2', 'Line 3']
 
 ### Getting Current Lyric
 
-To get the currently active lyric based on the timestamp set, use the `current_lyric` property:
+To get the currently active lyric based on the timestamp set, use the
+`current_lyric` property:
 
 ```python
 karaoke.set_current_lyric(6000)  # Set current time to 6 seconds
@@ -107,11 +114,15 @@ index = karaoke.find_lyric_index(6000)  # Output: 1
 #### Methods
 
 - `check(lrc: str)`: Validates the provided LRC data.
-- `clean(lrc: str, clean_blanklines: bool)`: Cleans the LRC data by removing timestamps or blank lines.
+- `clean(lrc: str, clean_blanklines: bool)`: Cleans the LRC data by removing
+  timestamps or blank lines.
 - `timestamp_to_ms(timestamp: str) -> int`: Converts LRC timestamp to milliseconds.
-- `parse(lrc: str, clean_blanklines: bool = False)`: Parses the LRC data into an internal structure.
-- `find_lyric_index(target_time: int) -> int`: Finds the index of the lyric that corresponds to a given time.
-- `set_current_lyric(target_time: int)`: Sets the current lyric based on a target time.
+- `parse(lrc: str, clean_blanklines: bool = False)`: Parses the LRC data into an
+  internal structure.
+- `find_lyric_index(target_time: int) -> int`: Finds the index of the lyric that
+  corresponds to a given time.
+- `set_current_lyric(target_time: int)`: Sets the current lyric based on a
+  target time.
 
 ## Example
 
@@ -136,4 +147,6 @@ print(karaoke.current_lyric)  # Output: 'Line 2'
 
 ## Conclusion
 
-The Karaoke library is a simple yet powerful tool for managing song lyrics and their timestamps. Its clean API and lightweight structure make it easy to integrate into various projects. Enjoy your karaoke sessions!
+The Karaoke library is a simple yet powerful tool for managing song lyrics and
+their timestamps. Its clean API and lightweight structure make it easy to
+integrate into various projects. Enjoy your karaoke sessions!

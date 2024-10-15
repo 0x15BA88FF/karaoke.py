@@ -1,0 +1,11 @@
+README.md
+setup.py
+karaoke/__init__.py
+karaoke/main.py
+karaoke.egg-info/PKG-INFO
+karaoke.egg-info/SOURCES.txt
+karaoke.egg-info/dependency_links.txt
+karaoke.egg-info/top_level.txt
+tests/test_base.py
+tests/test_callback.py
+tests/test_lrc_parser.py

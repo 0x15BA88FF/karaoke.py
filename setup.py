@@ -3,7 +3,7 @@ from pathlib import Path
 
 NAME = "karaoke"
 VERSION = "0.0.1"
-DESCRIPTION = " "
+DESCRIPTION = "Karaoke is a lightweight Python library designed to facilitate interactions with song Lyrics."
 LONG_DESCRIPTION = (Path(__file__).parent / "README.md").read_text()
 
 setup(

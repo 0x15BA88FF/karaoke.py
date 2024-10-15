@@ -12,6 +12,6 @@ setup(
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    keywords=["karaoke", "music", "lrc"]
+    keywords=["karaoke", "music", "lrc"],
     packages=find_packages(),
 )

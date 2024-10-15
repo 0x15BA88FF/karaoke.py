@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from pathlib import Path
 
 NAME = "karaoke"
-VERSION = "0.0.0"
+VERSION = "0.0.1"
 DESCRIPTION = " "
 LONG_DESCRIPTION = (Path(__file__).parent / "README.md").read_text()
 

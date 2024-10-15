@@ -3,5 +3,5 @@
 */.pytest_cache
 /build
 /dist
-/Karaoke.py.egg-info
-/Karaoke.egg-info
+/karaoke.py.egg-info
+/karaoke.egg-info

@@ -1,9 +1,10 @@
 from setuptools import setup, find_packages
+from pathlib import Path
 
-VERSION = "0.0.0"
 NAME = "Karaoke"
+VERSION = "0.0.0"
 DESCRIPTION = " "
-LONG_DESCRIPTION = """ """
+LONG_DESCRIPTION = (Path(__file__).parent / "README.md").read_text()
 
 setup(
     name=NAME,
